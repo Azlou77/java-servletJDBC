@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Support technique</h1>
+        <form action="traitement.jsp" method="post">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="email">E-mail :</label>
+            <input type="email" id="email" name="email" required>
+            
+             <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="tel">Téléphone :</label>
+            <input type="tel" id="tel" name="tel" required>
+
+            <label for="logiciel">Logiciel préféré :</label>
+            <select id="logiciel" name="logiciel">
+                <option value="Photoshop">Photoshop</option>
+                <option value="Visual Studio Code">Visual Studio Code</option>
+                <option value="Eclipse">Eclipse</option>
+                <option value="Autre">Autre</option>
+              </select>
+              
+            <label for="os">Système d'exploitation :</label>
+            <select id="os" name="os">
+                <option value="Windows">Windows</option>
+                <option value="MacOS">MacOS</option>
+                <option value="Linux">Linux</option>
+                <option value="Autre">Autre</option>
+            </select>
+            
+            <label for="issue">Description du problème</label>
+            <textarea rows="" cols=""></textarea>
+
+            <button type="submit">Soummettre la requête</button>
+        </form>
+    </div>
+</body>
+</html>
