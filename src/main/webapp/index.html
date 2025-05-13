@@ -9,15 +9,14 @@
 <body>
     <div class="form-container">
         <h1>Support technique</h1>
-        <form action="traitement.jsp" method="post">
+        <form action="support" method="get">
             <label for="nom">Nom :</label>
             <input type="text" id="nom" name="nom" required>
 
             <label for="email">E-mail :</label>
             <input type="email" id="email" name="email" required>
             
-             <label for="email">Email :</label>
-            <input type="email" id="email" name="email" required>
+       
 
             <label for="tel">Téléphone :</label>
             <input type="tel" id="tel" name="tel" required>
@@ -39,9 +38,9 @@
             </select>
             
             <label for="issue">Description du problème</label>
-            <textarea rows="" cols=""></textarea>
+            <textarea name ="issue" rows="" cols=""></textarea>
 
-            <button type="submit">Soummettre la requête</button>
+            <button type="submit">Soumettre la requête</button>
         </form>
     </div>
 </body>
